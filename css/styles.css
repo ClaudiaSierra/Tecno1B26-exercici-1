@@ -77,20 +77,19 @@ border: 1px solid black;
   padding: 67px;
   background: linear-gradient(
     to bottom,
-    var(--orange) 0,
-    var(--orange) calc(100% - 154px),
-    var(--white) calc(100% - 154px)
+
+    var(--orange) 85%,
+    var(--white) 85%
   );
 }
 .container {
-  border: 1px solid black;
   display: flex;
   max-width: 1312px; /* max amplada meu */
   margin: auto; /*centrar l'element*/
 }
 .column {
+  position: relative;
   width: 50%;
-  border: 1px solid red;
 }
 .heading-wrapper {
   margin-top: 70px;
@@ -169,6 +168,24 @@ border: 1px solid black;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.shape {
+  position: absolute;
+  right: 0;
+  width: 580px;
+  height: 790px;
+  border-radius: 0 0 400px 400px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  z-index: index 0;
+}
+
+.toy {
+  position: relative;
+  z-index: 1;
 }
 
 @keyframes rotate {
