@@ -181,12 +181,13 @@ border: 1px solid black;
     rgba(255, 255, 255, 0.05) 0%,
     rgba(255, 255, 255, 0.8) 100%
   );
-  z-index: 1;
+  z-index: 0;
 }
 
 .toy {
   position: relative;
-  z-index: 2;
+  z-index: 1;
+  max-width: 100%;
 }
 
 /* SECTION WORKS */
