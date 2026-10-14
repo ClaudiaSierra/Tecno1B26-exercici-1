@@ -180,12 +180,12 @@ border: 1px solid black;
     rgba(255, 255, 255, 0.05) 0%,
     rgba(255, 255, 255, 0.8) 100%
   );
-  z-index: index 0;
+  z-index: index 1;
 }
 
 .toy {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* SECTION WORKS */
